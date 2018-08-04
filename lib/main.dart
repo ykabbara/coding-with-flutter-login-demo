@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:login_demo/auth.dart';
 import 'package:login_demo/auth_provider.dart';
 import 'package:login_demo/root_page.dart';
+import 'login_page.dart';
+import 'auth.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,4 +23,5 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
+
 }

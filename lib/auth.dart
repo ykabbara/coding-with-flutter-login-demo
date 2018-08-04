@@ -35,3 +35,4 @@ class Auth implements BaseAuth {
     return _firebaseAuth.signOut();
   }
 }
+
